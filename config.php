@@ -4,6 +4,15 @@
 session_start();
 //config.php
 
+// Include existing database constants
+require_once 'includes/constants.php';
+
+// JWT Database Configuration - Map existing constants to JWT expected names
+define('DB_HOST', DB_HOST_NAME);
+define('DB_NAME', DB_USER_DATABASE);
+define('DB_USER', DB_USER_NAME);
+define('DB_PASS', DB_USER_PASSWORD);
+
 //Include Google Client Library for PHP autoload file
 // 0000092,0000065,0000048
 require_once './vendor/autoload.php';
