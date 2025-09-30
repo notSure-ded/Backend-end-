@@ -1,0 +1,107 @@
+# Composer dependencies
+/vendor/
+composer.phar
+composer.lock
+
+# Environment and configuration files
+.env
+.env.local
+.env.production
+config.local.php
+api-key.txt
+
+# Database files
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+Database sql files/
+*.dump
+
+# Log files
+/log/
+*.log
+error.log
+access.log
+php_errors.log
+
+# Cache and temporary files
+/cache/
+/tmp/
+*.tmp
+*.cache
+.htaccess.bak
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node modules (if any frontend build tools are used)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build and distribution files
+/build/
+/dist/
+/public/build/
+
+# Upload directories
+/uploads/
+/upload/
+*.uploaded
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+*.php~
+*.phps
+
+# Version control
+.git/
+.gitattributes
+
+# Documentation build
+docs/_build/
+
+# Testing
+/tests/coverage/
+phpunit.xml
+.phpunit.result.cache
+
+# Local development files
+local_config.php
+dev_config.php
+
+# API documentation that might contain sensitive info
+consultant_apidoc.txt
+
+# Jenkins
+Jenkinsfile.local
+
+# Email templates cache
+/email/cache/
+
+# Instamojo API keys
+instamojo_api/config.php
+
+# Any local override files
+*.local.*
